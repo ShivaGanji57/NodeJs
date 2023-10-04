@@ -26,4 +26,7 @@ const requesthandler=(req,res)=>{
         })
     }
 }
-module.exports=requesthandler
+module.exports={
+    handler:requesthandler,
+    someText:"Shivakumar"
+}
